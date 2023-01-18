@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+   
+    background: rgb(255,213,210);
+background: linear-gradient(90deg, rgba(255,213,210,1) 0%, rgba(232,221,231,1) 31%, rgba(218,218,218,1) 56%, rgba(219,219,219,1) 67%, rgba(233,235,202,1) 81%);
+}
+
+#third{
+    display: none;
+}
+.content:hover{
+    background-color: rgba(160, 160, 160,0.4);
+    width: 100%;
+    transition: 0.1s ease-in-out;
+}
+
+@media(max-width:768px){
+    #wrap{
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+    }
+    #wrap2{
+        background-color: rgb(255, 255, 255);
+    }
+    #button-next{
+        background-color: #0067b8;
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+        border: #0067b8;
+        color: aliceblue;
+        float: right;
+    
+    }
+    #button{
+        background-color: #b3b3b3;
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+        border: #0067b8;
+        color: aliceblue;
+        float: right;
+    
+    }
+    #password{
+        border: none;
+        border-bottom: 2px solid grey;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
+@media(min-width:768px){
+    #password{
+        border: none;
+        border-bottom: 2px solid grey;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+#wrap{
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+   
+}
+#wrap2{
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+#wrap3{
+    max-width: 450px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+#wrap2:hover{
+    background-color: rgba(207, 207, 207, 0.2);
+}
+
+#button-next{
+    background-color: #0067b8;
+    width: 130px;
+    height: 35px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border: #0067b8;
+    color: aliceblue;
+    float: right;
+
+}
+#button{
+    background-color: #c4c4c4;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border: #0067b8;
+    color: aliceblue;
+    float: right;
+
+}
+}
