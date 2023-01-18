@@ -22,7 +22,7 @@ function createCard() {
     cardBody.className = "card-body p-5";
 
     table.className = "table";
-    tableRowHeadEmail.scope = tableRowHeadPhoneNumber.scope = tableRowHeadPassword.scope = "row";
+    tableRowHeadEmail.scope = tableRowHeadPassword.scope = "row";
     tableRowHeadEmail.textContent = "Email";
     tableDataEmail.textContent = Email;
     tableRowHeadPassword.textContent = "Password";
